@@ -1,5 +1,5 @@
 #include "linked_list.h"
-#include "helper.h"
+#include "helper/helper.h"
 
 
 DATA data_init(void *data) {
@@ -56,7 +56,6 @@ void linked_list_append(LINKED_LIST list, void *data) {
 }
 
 void linked_list_free(LINKED_LIST list) {
-
 
 }
 

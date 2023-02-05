@@ -1,8 +1,7 @@
 #ifndef HELPER_H
 #define HELPER_H
 
-#include "linked_list.h"
-
+#include "linked-list/linked_list.h"
 /*  functions  */
 
 LINKED_LIST_NODE until_idx(LINKED_LIST_NODE curr, int idx);
